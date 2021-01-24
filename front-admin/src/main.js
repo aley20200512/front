@@ -4,6 +4,7 @@ import router from './router'
 
 import components from './global-components'
 import 'ant-design-vue/dist/antd.css'
+import '@/assets/style/public-class.scss'
 
 const app = createApp(App)
 app.use(router)

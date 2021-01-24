@@ -3,8 +3,8 @@ export default {
     list: [
       {
         title: '经典',
-        name: 'd2',
-        preview: 'image/theme/d2/preview@2x.png'
+        name: 'classic'
+        // preview: 'image/theme/d2/preview@2x.png'
       },
     ]
   }

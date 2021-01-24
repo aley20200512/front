@@ -1,7 +1,6 @@
 import {
   Spin,
   Card,
-  Icon,
   Button,
   Row,
   Col,
@@ -9,12 +8,12 @@ import {
   Layout,
   Menu,
   Avatar,
+  Breadcrumb,
   ConfigProvider
 } from 'ant-design-vue'
 
 const components = [
   Card,
-  Icon,
   Button,
   Row,
   Col,
@@ -23,7 +22,8 @@ const components = [
   ConfigProvider,
   Layout,
   Menu,
-  Avatar
+  Breadcrumb,
+  Avatar,
 ]
 
 export default components

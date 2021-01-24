@@ -1,4 +1,5 @@
 import layout from '@/layout/layout'
+import performance from './modules/performance'
 
 const _import = file => require(`@/pages/${file}`).default
 
@@ -19,7 +20,8 @@ const frameIn = [
         component: _import('index.vue')
       }
     ]
-  }
+  },
+  performance
 ]
 
 const frameOut = []
